@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/python-311@sha256:9466b94e3c872ef18ced7b815c446ca32b413ee116e5a394d90413becb5cd5e9
+FROM python:3.7.7-slim
 
 ENV PYTHONUNBUFFERED=1
 
